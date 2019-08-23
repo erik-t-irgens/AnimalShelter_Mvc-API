@@ -24,6 +24,7 @@ namespace ShelterAPI.Controllers
         }
 
         // POST api/values
+        [AllowAnonymous]
         [HttpPost]
         public void Post([FromBody] Animal animal)
         {
