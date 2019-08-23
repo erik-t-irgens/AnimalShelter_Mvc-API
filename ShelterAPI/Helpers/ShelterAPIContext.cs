@@ -12,7 +12,7 @@ namespace ShelterAPI.Helpers
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder
-                .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=aniaml_shelter;");
+                .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=animal_shelter;");
 
         public ShelterAPIContext(DbContextOptions options) : base(options)
         {
