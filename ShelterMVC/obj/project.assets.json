@@ -12422,11 +12422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/AnimalShelter.Solution/ShelterMVC/ShelterMVC.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/AnimalShelter_Mvc-API/ShelterMVC/ShelterMVC.csproj",
       "projectName": "ShelterMVC",
-      "projectPath": "/Users/Guest/Desktop/AnimalShelter.Solution/ShelterMVC/ShelterMVC.csproj",
+      "projectPath": "/Users/Guest/Desktop/AnimalShelter_Mvc-API/ShelterMVC/ShelterMVC.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/AnimalShelter.Solution/ShelterMVC/obj/",
+      "outputPath": "/Users/Guest/Desktop/AnimalShelter_Mvc-API/ShelterMVC/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
