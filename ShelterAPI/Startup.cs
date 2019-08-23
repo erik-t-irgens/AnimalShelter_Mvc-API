@@ -45,7 +45,7 @@ namespace ShelterAPI
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseMvc();
         }
