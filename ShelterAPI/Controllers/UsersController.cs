@@ -87,7 +87,7 @@ namespace ShelterAPI.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -95,7 +95,7 @@ namespace ShelterAPI.Controllers
             var userDtos = _mapper.Map<IList<UserDto>>(users);
             return Ok(userDtos);
         }
-
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {

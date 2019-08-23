@@ -18,6 +18,10 @@ namespace ShelterAPI.Services
 
     public class UserService : IUserService
     {
+        private List<User> _users = new List<User>
+        {
+            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" }
+        };
         private ShelterAPIContext _context;
 
         public UserService(ShelterAPIContext context)

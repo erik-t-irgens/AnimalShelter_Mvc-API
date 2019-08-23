@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "c661f99e4f6a9917b63dfeec5d3f46c7dcf609f4"
+    "signature": "123710e28ca14490ea1fe58f884baadd912bfe47"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,9 @@
     ".NETCoreApp,Version=v2.2": {
       "ShelterAPI/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
-          "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.NETCore.App": "2.2.0",
@@ -39,26 +40,34 @@
           "ShelterAPI.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.AzureADB2C.UI/2.2.0": {
+      "AutoMapper/9.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.2.0",
-          "Microsoft.AspNetCore.Mvc": "2.2.0"
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.Views.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          },
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.Views.dll": {},
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.dll": {}
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.6": {
@@ -3320,12 +3329,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authentication.AzureADB2C.UI/2.2.0": {
+    "AutoMapper/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tFWxHa5cWX6EcOq3i7VfGlmcp9dpiGvwQtiMpOSZKgWmTDWdMQr++Ea2G3mIj0G6educSXeDV8fyVycXQdijvw==",
-      "path": "microsoft.aspnetcore.authentication.azureadb2c.ui/2.2.0",
-      "hashPath": "microsoft.aspnetcore.authentication.azureadb2c.ui.2.2.0.nupkg.sha512"
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.2.6": {
       "type": "package",

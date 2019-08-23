@@ -27,7 +27,7 @@ namespace ShelterAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-            services.AddDbContext<ShelterAPIContext>(x => x.UseInMemoryDatabase("TestDb"));
+            services.AddDbContext<ShelterAPIContext>(x => x.UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=animal_shelter;"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2); ;
             services.AddAutoMapper(typeof(Startup));
 

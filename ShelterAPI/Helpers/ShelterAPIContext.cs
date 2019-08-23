@@ -10,9 +10,9 @@ namespace ShelterAPI.Helpers
         public DbSet<Breed> Breeds { get; set; }
         public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder
-                .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=animal_shelter;");
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //     => optionsBuilder
+        //         .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=animal_shelter;");
 
         public ShelterAPIContext(DbContextOptions options) : base(options)
         {
