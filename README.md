@@ -1,6 +1,6 @@
 # Animal Shelter
 
-#### _DESCRIPTION - August 2019_
+#### _Animal shelter application that allows for the creation of animals in an API using MVC for CRUD - August 2019_
 
 #### _By **Erik Irgens**_
 
